@@ -52,7 +52,7 @@ async def start(event):
                       [Button.url('📜 Etiraf Kanalı', f'https://t.me/{kanal}')],
                       [Button.url('📣 Support', f'https://t.me/{support}')],
                       [Button.url('👨🏻‍💻 Sahibim', f'https://t.me/{sahib}')],
-                      [Button.url('Sohbet', f'https://t.me{Sohbet}')] 
+                      [Button.url('Support 2', f'https://t.me{support2}')] 
                     ),
                     link_preview=False)
 
