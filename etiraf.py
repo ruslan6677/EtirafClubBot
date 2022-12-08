@@ -27,7 +27,7 @@ from telethon import TelegramClient, events
 from telethon.tl.functions.messages import ForwardMessagesRequest
 from telethon.sessions import StringSession
 from telethon.tl.types import ChannelParticipantsAdmins
-from config import client, admin_qrup, etiraf_qrup, kanal, log_qrup, etirafmsg, startmesaj, qrupstart, botad, qrupstart, gonderildi, etirafyaz, sahib, support, support 2
+from config import client, admin_qrup, etiraf_qrup, kanal, log_qrup, etirafmsg, startmesaj, qrupstart, botad, qrupstart, gonderildi, etirafyaz, sahib, support, support2
 
 logging.basicConfig(
     level=logging.INFO,
@@ -52,7 +52,7 @@ async def start(event):
                       [Button.url('📜 Etiraf Kanalı', f'https://t.me/{kanal}')],
                       [Button.url('📣 Support', f'https://t.me/{support}')],
                       [Button.url('👨🏻‍💻 Sahibim', f'https://t.me/{sahib}')],
-                      [Button.url('Support 2', f'https://t.me{support2}')] 
+                      [Button.url('support2', f'https://t.me{support2}')] 
                     ),
                     link_preview=False)
 
