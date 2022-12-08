@@ -38,6 +38,7 @@ qrupstart = os.environ.get("qrupstart")
 gonderildi = os.environ.get("gonderildi")
 support = os.environ.get("support")
 sahib = os.environ.get("sahib")
+support1 = os.environ.get("support2")
 #
 # RoBotlarimTg
 # RoBotlarimTg
