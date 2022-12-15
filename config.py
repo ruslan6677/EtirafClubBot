@@ -22,15 +22,15 @@ from telethon import TelegramClient, events
 # 
 api_id = int(os.environ.get("APP_ID", "10300036"))
 api_hash = os.environ.get("API_HASH")
-bot_token = os.environ.get("TOKEN")
+bot_token = os.environ.get("5988816794:AAESC0--L_vcfcTHwnZKVb8c9yjrc5QBsAc")
 # Telethon 
 client = TelegramClient('client', api_id, api_hash).start(bot_token=bot_token)
 #
-admin_qrup = int(os.environ.get("ADMIN_QRUP", "-845809113"))
-etiraf_qrup = int(os.environ.get("ETIRAF_QRUP", "-1001856348176"))
-kanal = os.environ.get("kanal")
-log_qrup = int(os.environ.get("LOG_QRUP", "-821257533"))
-botad = os.environ.get("BOT_AD")
+admin_qrup = int(os.environ.get("ADMIN_QRUP", "-792229399"))
+etiraf_qrup = int(os.environ.get("ETIRAF_QRUP", "-1001873495275"))
+kanal = os.environ.get("EtiaflaePlaylist6")
+log_qrup = int(os.environ.get("LOG_QRUP", "-796687135"))
+botad = os.environ.get("EtirafBot")
 etirafmsg = os.environ.get("Salam")
 startmesaj = os.environ.get("Salam")
 etirafyaz = os.environ.get("Salam")
